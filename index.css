@@ -1,0 +1,52 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    /* box-sizing: border-box; */
+    background-color: #e6e6e6;
+}
+
+img{
+    height:5% ;
+    width: 5%;
+    border-radius: 2pt;
+}
+
+header{
+    background-color: white;
+    padding: 1.2%
+
+}
+
+main{
+    display: flex ;
+    flex-direction: wrap;
+    margin: 2%;
+}
+
+.mainNav{
+    padding: 1.5%;
+}
+
+.headerNav{
+    position: relative;
+    left: 60%;
+}
+
+.leftPan{
+    display: flex ;
+    flex: 30%;
+    flex-direction: column;
+    padding: 2%;
+    background-color: white;
+    margin: 5%
+}
+
+.rightPan{
+
+    display: flex ;
+    flex: 70%;
+    flex-direction: column;
+    padding: 2%;
+    background-color: white;
+    margin: 1%
+}
