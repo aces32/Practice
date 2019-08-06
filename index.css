@@ -23,6 +23,12 @@ main{
     margin: 2%;
 }
 
+.cusInformation{
+    flex: 10%;
+    flex-direction: row;
+
+}
+
 .mainNav{
     padding: 1.5%;
 }
