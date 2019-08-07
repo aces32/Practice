@@ -23,8 +23,10 @@ main{
     margin: 2%;
 }
 
-.mainView{
-    display: inline;
+.cusInformation{
+    flex: 10%;
+    flex-direction: row;
+
 }
 
 .mainNav{
