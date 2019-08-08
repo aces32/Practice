@@ -6,15 +6,16 @@ body{
 }
 
 img{
-    height:5% ;
-    width: 5%;
+    height:8% ;
+    width: 8%;
     border-radius: 2pt;
+    margin: 1%;
 }
 
 header{
     background-color: white;
-    padding: 1.2%
-
+    height: 60px;
+    box-shadow: 10px 5px #e6e6e6;
 }
 
 main{
@@ -23,19 +24,41 @@ main{
     margin: 2%;
 }
 
-.cusInformation{
-    flex: 10%;
-    flex-direction: row;
+/* .cusInformation{
+
+    box-sizing: border-box;
+    height: 8%;
+    width: 10%;
+
+} */
+
+/* .task{
+
+    box-sizing: border-box;
+    height: 8%;
+    width: 10%;
 
 }
+
+.achievment{
+
+    box-sizing: border-box;
+    height: 8%;
+    width: 10%;
+
+} */
 
 .mainNav{
     padding: 2%;
 }
 
-.headerNav{
+.headerNav a{
     position: relative;
-    left: 60%;
+    left: 50%;
+    /* padding: 5.8% 0.8%; */
+    padding:1.8% 0.8% 0.8% 0.8%; 
+    text-decoration: none;
+    color: #595959;
 }
 
 .leftPan{
@@ -44,7 +67,13 @@ main{
     flex-direction: column;
     padding: 2%;
     background-color: white;
-    margin: 5%
+    margin: 1%
+}
+.leftPan > div{
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    /* line-height: 75px; */
 }
 
 .rightPan{
@@ -55,4 +84,23 @@ main{
     padding: 2%;
     background-color: white;
     margin: 1%
+}
+
+.signUpBtn{
+    background-color: #66ff99;
+}
+
+.wrapFlex{
+    display: flex ;
+    flex-direction: row;
+}
+
+.columnFlex{
+    display: flex !important;
+    flex-direction: column !important;
+    
+}
+
+h4{
+    margin: 0;
 }
