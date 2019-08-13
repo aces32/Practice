@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     padding: 0%;
     margin: 0%;
@@ -5,12 +9,8 @@ body{
     background-color: #e6e6e6;
 }
 
-img{
-    height:8% ;
-    width: 8%;
-    border-radius: 2pt;
-    margin: 1%;
-    margin: 0% 1.5% 1.5% 1.5%;
+h4{
+    margin: 0;
 }
 
 header{
@@ -25,38 +25,57 @@ main{
     margin: 2%;
 }
 
-/* .cusInformation{
+.mainView{
+    box-sizing: border-box;
+    background-color: white;
+    padding: 3%;
+    /* margin: 15px; */
+}
+
+ .cusInformation{
 
     box-sizing: border-box;
-    height: 8%;
-    width: 10%;
+    /* height: 8%;
+    width: 10%; */
+    background-color: white;
+} 
 
-} */
-
-/* .task{
+.task{
 
     box-sizing: border-box;
-    height: 8%;
-    width: 10%;
+    /* height: 8%;
+    width: 10%; */
+    background-color: white;
 
 }
 
 .achievment{
 
     box-sizing: border-box;
-    height: 8%;
-    width: 10%;
+    /* height: 8%;
+    width: 10%; */
+    background-color: white;
 
-} */
+}
 
 .mainNav{
-    padding: 2%;
+ padding: inherit;
+}
+
+.mainNav > a{
+    padding: 1%;
+    text-decoration: none;
+    color: #696969;
+}
+
+
+.headerNav{
+    padding: 20px;
 }
 
 .headerNav a{
     position: relative;
     left: 50%;
-    /* padding: 5.8% 0.8%; */
     padding:1.8% 0.8% 0.8% 0.8%; 
     text-decoration: none;
     color: #595959;
@@ -66,9 +85,9 @@ main{
     display: flex ;
     flex: 30%;
     flex-direction: column;
-    padding: 2%;
-    background-color: white;
-    margin: 1%
+    /* padding: 2%; */
+    background-color: #e6e6e6;
+    /* margin: 1% */
 }
 .leftPan > div{
     width: auto;
@@ -82,10 +101,18 @@ main{
     display: flex ;
     flex: 70%;
     flex-direction: column;
-    padding: 2%;
-    background-color: white;
+    /* padding: 2%; */
+    background-color: #e6e6e6;
     margin: 1%
 }
+
+.rightImg{
+    height:10% ;
+    width: 12%;
+    border-radius: 2pt;
+    padding: 0px 10px 60px 10px;
+}
+
 
 .signUpBtn{
     background-color: #66ff99;
@@ -102,6 +129,21 @@ main{
     
 }
 
-h4{
-    margin: 0;
+.columnFlex > p{
+    font-size: 12px;    
+}
+
+#add-Task{
+    position: relative;
+    left: 65%;
+    color: #0000CD;
+    background-color: white;
+    font-size: 10px;
+    border: 1px solid #0000CD;
+}
+
+#timeLine{
+    color: white;
+    background-color: #80aaff;
+    border-radius: 4pt;
 }
